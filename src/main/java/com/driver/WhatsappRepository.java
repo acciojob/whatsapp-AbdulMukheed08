@@ -53,7 +53,7 @@ public class WhatsappRepository {
 
     public static int saveMessage(String content) {
         messageId++;
-        Message m = new Message(messageId,content,new Date(28012023));
+        Message m = new Message(messageId,content,new Date());
         return messageId;
     }
 
